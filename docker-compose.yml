@@ -37,8 +37,8 @@ services:
     networks:
       - lan
     restart: always
-#    logging:
-#      driver: none
+    logging:
+      driver: none
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
